@@ -24,7 +24,7 @@
 <p>
   <b>Previous steps</b>
   <%= @script.previous_script_ids %>
-  <% @script.previous_script_ids.split(',').map{ |e| Script.all[e.to_i-1] }.each do |pscript| %>
+  <% @script.previous_script_ids.split(',').map{ |e| Script.find(e)}.each do |pscript| %>
     <%= link_to pscript.label , pscript %>
   <% end %>
 </p>
@@ -32,7 +32,7 @@
 <p>
   <b>Next steps:</b>
   <%= @script.next_script_ids %>
-  <% @script.next_script_ids.split(',').map{ |e| Script.all[e.to_i-1] }.each do |nscript| %>
+  <% @script.next_script_ids.split(',').map{ |e| Script.find(e) }.each do |nscript| %>
     <%= link_to nscript.label , nscript %>
   <% end %>
 </p>

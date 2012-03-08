@@ -26861,3 +26861,80 @@ Served asset /pipeline_items.js - 304 Not Modified (15ms)
 Served asset /scripts.js - 304 Not Modified (8ms)
 Served asset /jquery.js - 304 Not Modified (14ms)
 Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/PipelineOR/scripts/1" for 127.0.0.1 at 2012-03-08 16:39:51 +0100
+Processing by ScriptsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mScript Load (0.7ms)[0m  [1mSELECT "scripts".* FROM "scripts" WHERE "scripts"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  [1m[35mScript Load (0.3ms)[0m  SELECT "scripts".* FROM "scripts" WHERE "scripts"."id" = $1 LIMIT 1  [["id", "2"]]
+  Rendered scripts/show.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 86ms (Views: 58.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/PipelineOR/assets/application.css?body=1" for 127.0.0.1 at 2012-03-08 16:39:52 +0100
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/PipelineOR/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-08 16:39:52 +0100
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.css?body=1" for 127.0.0.1 at 2012-03-08 16:39:52 +0100
+Served asset /pipeline_items.css - 200 OK (1ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.css?body=1" for 127.0.0.1 at 2012-03-08 16:39:52 +0100
+Served asset /pfiles.css - 200 OK (1ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.css?body=1" for 127.0.0.1 at 2012-03-08 16:39:52 +0100
+Served asset /input_outputs.css - 200 OK (1ms)
+
+
+Started GET "/PipelineOR/assets/scripts.css?body=1" for 127.0.0.1 at 2012-03-08 16:39:52 +0100
+Served asset /scripts.css - 200 OK (1ms)
+
+
+Started GET "/PipelineOR/assets/statuses.css?body=1" for 127.0.0.1 at 2012-03-08 16:39:52 +0100
+Served asset /statuses.css - 200 OK (3ms)
+
+
+Started GET "/PipelineOR/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-08 16:39:52 +0100
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.js?body=1" for 127.0.0.1 at 2012-03-08 16:39:52 +0100
+Served asset /input_outputs.js - 200 OK (7ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.js?body=1" for 127.0.0.1 at 2012-03-08 16:39:52 +0100
+Served asset /pipeline_items.js - 200 OK (2ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.js?body=1" for 127.0.0.1 at 2012-03-08 16:39:52 +0100
+Served asset /pipelines.js - 200 OK (4ms)
+
+
+Started GET "/PipelineOR/assets/scripts.js?body=1" for 127.0.0.1 at 2012-03-08 16:39:52 +0100
+Served asset /scripts.js - 200 OK (7ms)
+
+
+Started GET "/PipelineOR/assets/statuses.js?body=1" for 127.0.0.1 at 2012-03-08 16:39:52 +0100
+Served asset /statuses.js - 200 OK (2ms)
+
+
+Started GET "/PipelineOR/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-08 16:39:54 +0100
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.css?body=1" for 127.0.0.1 at 2012-03-08 16:39:54 +0100
+Served asset /pipelines.css - 200 OK (3ms)
+
+
+Started GET "/PipelineOR/assets/application.js?body=1" for 127.0.0.1 at 2012-03-08 16:39:54 +0100
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.js?body=1" for 127.0.0.1 at 2012-03-08 16:39:54 +0100
+Served asset /pfiles.js - 200 OK (2ms)
