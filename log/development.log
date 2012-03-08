@@ -26938,3 +26938,865 @@ Served asset /application.js - 200 OK (11ms)
 
 Started GET "/PipelineOR/assets/pfiles.js?body=1" for 127.0.0.1 at 2012-03-08 16:39:54 +0100
 Served asset /pfiles.js - 200 OK (2ms)
+
+
+Started GET "/PipelineOR/pipelines" for 127.0.0.1 at 2012-03-08 17:51:31 +0100
+Processing by PipelinesController#index as HTML
+  [1m[36mPipeline Load (0.5ms)[0m  [1mSELECT "pipelines".* FROM "pipelines" [0m
+  [1m[35mStatus Load (0.4ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 5 LIMIT 1
+  Rendered pipelines/index.html.erb within layouts/application (64.1ms)
+Completed 200 OK in 105ms (Views: 95.6ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/PipelineOR/assets/application.css?body=1" for 127.0.0.1 at 2012-03-08 17:51:31 +0100
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.css?body=1" for 127.0.0.1 at 2012-03-08 17:51:31 +0100
+Served asset /input_outputs.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.css?body=1" for 127.0.0.1 at 2012-03-08 17:51:31 +0100
+Served asset /pfiles.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/statuses.css?body=1" for 127.0.0.1 at 2012-03-08 17:51:31 +0100
+Served asset /statuses.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.css?body=1" for 127.0.0.1 at 2012-03-08 17:51:31 +0100
+Served asset /pipeline_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.css?body=1" for 127.0.0.1 at 2012-03-08 17:51:31 +0100
+Served asset /pipelines.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-08 17:51:31 +0100
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/scripts.css?body=1" for 127.0.0.1 at 2012-03-08 17:51:31 +0100
+Served asset /scripts.css - 304 Not Modified (2ms)
+
+
+Started GET "/PipelineOR/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-08 17:51:31 +0100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/PipelineOR/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-08 17:51:31 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.js?body=1" for 127.0.0.1 at 2012-03-08 17:51:31 +0100
+Served asset /input_outputs.js - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/scripts.js?body=1" for 127.0.0.1 at 2012-03-08 17:51:32 +0100
+Served asset /scripts.js - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/statuses.js?body=1" for 127.0.0.1 at 2012-03-08 17:51:32 +0100
+Served asset /statuses.js - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.js?body=1" for 127.0.0.1 at 2012-03-08 17:51:32 +0100
+Served asset /pipelines.js - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.js?body=1" for 127.0.0.1 at 2012-03-08 17:51:32 +0100
+Served asset /pfiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.js?body=1" for 127.0.0.1 at 2012-03-08 17:51:32 +0100
+Served asset /pipeline_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/application.js?body=1" for 127.0.0.1 at 2012-03-08 17:51:32 +0100
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/PipelineOR/pipelines" for 127.0.0.1 at 2012-03-08 17:52:11 +0100
+Processing by PipelinesController#index as HTML
+  [1m[36mPipeline Load (0.7ms)[0m  [1mSELECT "pipelines".* FROM "pipelines" [0m
+  [1m[35mStatus Load (0.6ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 5 LIMIT 1
+  Rendered pipelines/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 47ms (Views: 43.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/PipelineOR/pipelines" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Processing by PipelinesController#index as HTML
+  [1m[36mPipeline Load (0.7ms)[0m  [1mSELECT "pipelines".* FROM "pipelines" [0m
+  [1m[35mStatus Load (0.6ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 5 LIMIT 1
+  Rendered pipelines/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 26ms (Views: 22.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/PipelineOR/assets/application.css?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.css?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /input_outputs.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.css?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /pfiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.css?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /pipelines.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.css?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /scripts.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.css?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.js?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /input_outputs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.css?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /pipeline_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.js?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /pfiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.js?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /pipeline_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.js?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /pipelines.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.js?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.js?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/application.js?body=1" for 127.0.0.1 at 2012-03-08 17:52:25 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/PipelineOR/pipelines" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Processing by PipelinesController#index as HTML
+  [1m[36mPipeline Load (0.3ms)[0m  [1mSELECT "pipelines".* FROM "pipelines" [0m
+  [1m[35mStatus Load (0.3ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 5 LIMIT 1
+  Rendered pipelines/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/PipelineOR/assets/application.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /input_outputs.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /scripts.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /pfiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /pipeline_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /pipelines.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /input_outputs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /pfiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /pipeline_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /pipelines.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/application.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:41 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/pipeline_items" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Processing by PipelineItemsController#index as HTML
+  [1m[36mPipelineItem Load (0.4ms)[0m  [1mSELECT "pipeline_items".* FROM "pipeline_items" [0m
+  [1m[35mScript Load (0.4ms)[0m  SELECT "scripts".* FROM "scripts" WHERE "scripts"."id" = 1 LIMIT 1
+  [1m[36mPipeline Load (0.2ms)[0m  [1mSELECT "pipelines".* FROM "pipelines" [0m
+  [1m[35mStatus Load (0.1ms)[0m  SELECT "statuses".* FROM "statuses" 
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "statuses".* FROM "statuses" [0m
+  Rendered pipeline_items/index.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 40ms (Views: 29.1ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/PipelineOR/assets/application.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /input_outputs.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /pipeline_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /pipelines.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /scripts.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /pfiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.css?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /pipeline_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /input_outputs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /pfiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /pipelines.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/application.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/PipelineOR/assets/statuses.js?body=1" for 127.0.0.1 at 2012-03-08 18:00:45 +0100
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/pipeline_items" for 127.0.0.1 at 2012-03-08 18:01:03 +0100
+Processing by PipelineItemsController#index as HTML
+  [1m[35mPipelineItem Load (0.8ms)[0m  SELECT "pipeline_items".* FROM "pipeline_items" 
+  [1m[36mScript Load (0.9ms)[0m  [1mSELECT "scripts".* FROM "scripts" WHERE "scripts"."id" = 1 LIMIT 1[0m
+  Rendered pipeline_items/index.html.erb within layouts/application (92.8ms)
+Completed 500 Internal Server Error in 100ms
+
+ActionView::Template::Error (undefined method `name' for #<Script:0x97b6430>):
+    13: <% @pipeline_items.each do |pipeline_item| %>
+    14:   <tr>
+    15:     <td><%= pipeline_item.id %></td>
+    16:     <td><%= pipeline_item.script.name %></td>
+    17:     <td><%= Pipeline.all[pipeline_item.pipeline_id-2].name %></td>
+    18:     <td><%= pipeline_item.exec_order %></td>
+    19:     <td><span class="<%= Status.all[pipeline_item.status_id-1].name %>"><%= Status.all[pipeline_item.status_id-1].name.upcase %></span></td>
+  app/views/pipeline_items/index.html.erb:16:in `block in _app_views_pipeline_items_index_html_erb___533323782_77602110'
+  app/views/pipeline_items/index.html.erb:13:in `each'
+  app/views/pipeline_items/index.html.erb:13:in `_app_views_pipeline_items_index_html_erb___533323782_77602110'
+  app/controllers/pipeline_items_controller.rb:7:in `index'
+
+
+  Rendered /home/chernan/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.8ms)
+  Rendered /home/chernan/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/chernan/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.3ms)
+
+
+Started GET "/PipelineOR/pipeline_items" for 127.0.0.1 at 2012-03-08 18:02:02 +0100
+Processing by PipelineItemsController#index as HTML
+  [1m[35mPipelineItem Load (0.2ms)[0m  SELECT "pipeline_items".* FROM "pipeline_items" 
+  [1m[36mScript Load (0.2ms)[0m  [1mSELECT "scripts".* FROM "scripts" WHERE "scripts"."id" = 1 LIMIT 1[0m
+  Rendered pipeline_items/index.html.erb within layouts/application (17.5ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (undefined method `name' for #<Script:0x95d8b54>):
+    13: <% @pipeline_items.each do |pipeline_item| %>
+    14:   <tr>
+    15:     <td><%= pipeline_item.id %></td>
+    16:     <td><%= pipeline_item.script.name %></td>
+    17:     <td><%= Pipeline.all[pipeline_item.pipeline_id-2].name %></td>
+    18:     <td><%= pipeline_item.exec_order %></td>
+    19:     <td><span class="<%= Status.all[pipeline_item.status_id-1].name %>"><%= Status.all[pipeline_item.status_id-1].name.upcase %></span></td>
+  app/views/pipeline_items/index.html.erb:16:in `block in _app_views_pipeline_items_index_html_erb___533323782_77602110'
+  app/views/pipeline_items/index.html.erb:13:in `each'
+  app/views/pipeline_items/index.html.erb:13:in `_app_views_pipeline_items_index_html_erb___533323782_77602110'
+  app/controllers/pipeline_items_controller.rb:7:in `index'
+
+
+  Rendered /home/chernan/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.7ms)
+  Rendered /home/chernan/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/chernan/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/PipelineOR/pipeline_items" for 127.0.0.1 at 2012-03-08 18:02:39 +0100
+Processing by PipelineItemsController#index as HTML
+  [1m[35mPipelineItem Load (0.2ms)[0m  SELECT "pipeline_items".* FROM "pipeline_items" 
+  [1m[36mScript Load (0.2ms)[0m  [1mSELECT "scripts".* FROM "scripts" WHERE "scripts"."id" = 1 LIMIT 1[0m
+  Rendered pipeline_items/index.html.erb within layouts/application (18.2ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (undefined method `name' for #<Script:0x94ec2f4>):
+    13: <% @pipeline_items.each do |pipeline_item| %>
+    14:   <tr>
+    15:     <td><%= pipeline_item.id %></td>
+    16:     <td><%= pipeline_item.script.name %></td>
+    17:     <td><%= Pipeline.all[pipeline_item.pipeline_id-2].name %></td>
+    18:     <td><%= pipeline_item.exec_order %></td>
+    19:     <td><span class="<%= Status.all[pipeline_item.status_id-1].name %>"><%= Status.all[pipeline_item.status_id-1].name.upcase %></span></td>
+  app/views/pipeline_items/index.html.erb:16:in `block in _app_views_pipeline_items_index_html_erb___533323782_77602110'
+  app/views/pipeline_items/index.html.erb:13:in `each'
+  app/views/pipeline_items/index.html.erb:13:in `_app_views_pipeline_items_index_html_erb___533323782_77602110'
+  app/controllers/pipeline_items_controller.rb:7:in `index'
+
+
+  Rendered /home/chernan/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.6ms)
+  Rendered /home/chernan/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/chernan/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.8ms)
+
+
+Started GET "/PipelineOR/pipeline_items" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Processing by PipelineItemsController#index as HTML
+  [1m[35mPipelineItem Load (0.3ms)[0m  SELECT "pipeline_items".* FROM "pipeline_items" 
+  [1m[36mScript Load (0.2ms)[0m  [1mSELECT "scripts".* FROM "scripts" WHERE "scripts"."id" = 1 LIMIT 1[0m
+  [1m[35mPipeline Load (0.2ms)[0m  SELECT "pipelines".* FROM "pipelines" WHERE "pipelines"."id" = 2 LIMIT 1
+  [1m[36mStatus Load (0.1ms)[0m  [1mSELECT "statuses".* FROM "statuses" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "statuses".* FROM "statuses" 
+  Rendered pipeline_items/index.html.erb within layouts/application (70.0ms)
+Completed 200 OK in 89ms (Views: 74.2ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/PipelineOR/assets/application.css?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.css?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /input_outputs.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.css?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /pfiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.css?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /pipeline_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.js?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /input_outputs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.css?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /pipelines.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.css?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /scripts.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.css?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.js?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /pfiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.js?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /pipeline_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.js?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /pipelines.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.js?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.js?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/application.js?body=1" for 127.0.0.1 at 2012-03-08 18:05:21 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/pipeline_items" for 127.0.0.1 at 2012-03-08 18:06:03 +0100
+Processing by PipelineItemsController#index as HTML
+  [1m[36mPipelineItem Load (0.8ms)[0m  [1mSELECT "pipeline_items".* FROM "pipeline_items" [0m
+  [1m[35mScript Load (0.7ms)[0m  SELECT "scripts".* FROM "scripts" WHERE "scripts"."id" = 1 LIMIT 1
+  [1m[36mPipeline Load (0.5ms)[0m  [1mSELECT "pipelines".* FROM "pipelines" WHERE "pipelines"."id" = 2 LIMIT 1[0m
+  [1m[35mStatus Load (0.5ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 5 LIMIT 1
+  Rendered pipeline_items/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 34ms (Views: 29.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/PipelineOR/assets/application.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /input_outputs.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /pfiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /pipelines.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /scripts.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /input_outputs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /pipeline_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /pfiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /pipeline_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /pipelines.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/application.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:04 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/pipeline_items/1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Processing by PipelineItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPipelineItem Load (0.6ms)[0m  [1mSELECT "pipeline_items".* FROM "pipeline_items" WHERE "pipeline_items"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  Rendered pipeline_items/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/PipelineOR/assets/application.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /pipeline_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /pipelines.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /input_outputs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /pfiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /pfiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /input_outputs.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /scripts.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /pipeline_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /pipelines.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/application.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:09 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/PipelineOR/pipeline_items" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Processing by PipelineItemsController#index as HTML
+  [1m[35mPipelineItem Load (0.4ms)[0m  SELECT "pipeline_items".* FROM "pipeline_items" 
+  [1m[36mScript Load (0.2ms)[0m  [1mSELECT "scripts".* FROM "scripts" WHERE "scripts"."id" = 1 LIMIT 1[0m
+  [1m[35mPipeline Load (0.2ms)[0m  SELECT "pipelines".* FROM "pipelines" WHERE "pipelines"."id" = 2 LIMIT 1
+  [1m[36mStatus Load (0.2ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 5 LIMIT 1[0m
+  Rendered pipeline_items/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/PipelineOR/assets/application.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/scripts.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /scripts.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /pipeline_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /input_outputs.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /pipelines.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /pfiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /input_outputs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /pfiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /pipeline_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /pipelines.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/application.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:11 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/pipeline_items/1/edit" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Processing by PipelineItemsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPipelineItem Load (0.3ms)[0m  SELECT "pipeline_items".* FROM "pipeline_items" WHERE "pipeline_items"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mScript Load (0.3ms)[0m  [1mSELECT "scripts".* FROM "scripts" [0m
+  [1m[35mPipeline Load (0.1ms)[0m  SELECT "pipelines".* FROM "pipelines" 
+  [1m[36mStatus Load (0.1ms)[0m  [1mSELECT "statuses".* FROM "statuses" [0m
+  Rendered pipeline_items/_form.html.erb (10.0ms)
+  Rendered pipeline_items/edit.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/PipelineOR/assets/application.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /input_outputs.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /pfiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /pipeline_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /pipelines.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /scripts.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /pipeline_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /pipelines.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/application.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /pfiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:14 +0100
+Served asset /input_outputs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/pipeline_items" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Processing by PipelineItemsController#index as HTML
+  [1m[35mPipelineItem Load (0.4ms)[0m  SELECT "pipeline_items".* FROM "pipeline_items" 
+  [1m[36mScript Load (0.3ms)[0m  [1mSELECT "scripts".* FROM "scripts" WHERE "scripts"."id" = 1 LIMIT 1[0m
+  [1m[35mPipeline Load (0.2ms)[0m  SELECT "pipelines".* FROM "pipelines" WHERE "pipelines"."id" = 2 LIMIT 1
+  [1m[36mStatus Load (0.2ms)[0m  [1mSELECT "statuses".* FROM "statuses" WHERE "statuses"."id" = 5 LIMIT 1[0m
+  Rendered pipeline_items/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/PipelineOR/assets/application.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /input_outputs.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /pfiles.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /pipelines.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /pipeline_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /scripts.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /statuses.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/input_outputs.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /input_outputs.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipeline_items.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /pipeline_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pfiles.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /pfiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/pipelines.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /pipelines.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/scripts.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/statuses.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /statuses.js - 304 Not Modified (0ms)
+
+
+Started GET "/PipelineOR/assets/application.js?body=1" for 127.0.0.1 at 2012-03-08 18:06:27 +0100
+Served asset /application.js - 304 Not Modified (1ms)

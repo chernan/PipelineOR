@@ -13,10 +13,10 @@
 <% @pipeline_items.each do |pipeline_item| %>
   <tr>
     <td><%= pipeline_item.id %></td>
-    <td><%= Script.all[pipeline_item.script_id-1].label %></td>
-    <td><%= Pipeline.all[pipeline_item.pipeline_id-2].name %></td>
+    <td><%= pipeline_item.script.label %></td>
+    <td><%= pipeline_item.pipeline.name %></td>
     <td><%= pipeline_item.exec_order %></td>
-    <td><span class="<%= Status.all[pipeline_item.status_id-1].name %>"><%= Status.all[pipeline_item.status_id-1].name.upcase %></span></td>
+    <td><span class="<%= pipeline_item.status.name %>"><%= pipeline_item.status.name.upcase %></span></td>
     <td><%= pipeline_item.created_at %></td>
     <td><%= link_to 'Show', pipeline_item %></td>
     <td><%= link_to 'Edit', edit_pipeline_item_path(pipeline_item) %></td>

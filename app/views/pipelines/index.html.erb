@@ -15,7 +15,7 @@
     <td><%= pipeline.name %></td>
     <td><%= pipeline.key %></td>
     <td><%= pipeline.email %></td>
-    <td><span class="<%= Status.all[pipeline.status_id-1].name %>"><%= Status.all[pipeline.status_id-1].name.upcase %></span></td>
+    <td><span class="<%= pipeline.status.name %>"><%= pipeline.status.name.upcase %></span></td>
     <td><%= link_to 'Show', pipeline %></td>
     <td><%= link_to 'Edit', edit_pipeline_path(pipeline) %></td>
     <td><%= link_to 'Destroy', pipeline, confirm: 'Are you sure?', method: :delete %></td>
