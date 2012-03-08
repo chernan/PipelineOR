@@ -19,15 +19,17 @@ primary key (id)
 create table pfiles(
 id serial,
 name text,
-argument_pos int, --optional
 script_id int references scripts,
 primary key (id)
 );
 
 create table input_outputs(
+id serial,
 script_id int references scripts,
 is_input bool,
-file_id int references files --attention! -> pfiles
+argument_pos int, --optional
+pfile_id int references pfiles,
+primary key (id)
 );
 
 create table pipelines(
