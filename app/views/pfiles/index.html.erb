@@ -1,0 +1,26 @@
+<h1>Listing pfiles</h1>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Argument pos.</th>
+    <th>Script ID</th>
+  </tr>
+
+<% @pfiles.each do |pfile| %>
+  <tr>
+    <td><%= pfile.id %></td>
+    <td><%= pfile.name %></td>
+    <td><%= pfile.argument_pos %></td>
+    <td><%= pfile.script_id %></td>
+    <td><%= link_to 'Show', pfile %></td>
+    <td><%= link_to 'Edit', edit_pfile_path(pfile) %></td>
+    <td><%= link_to 'Destroy', pfile, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Pfile', new_pfile_path %>

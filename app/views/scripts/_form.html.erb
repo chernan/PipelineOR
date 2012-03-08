@@ -1,0 +1,45 @@
+<%= form_for(@script) do |f| %>
+  <% if @script.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@script.errors.count, "error") %> prohibited this script from being saved:</h2>
+
+      <ul>
+      <% @script.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <table>
+    <tr>
+      <td>Commande</td>
+      <td><%= f.text_field :cmd %></td>
+      <td>Script name without its arguments, but including the interpreter.</td>
+    </tr>
+    <tr>
+      <td>Label</td>
+      <td><%= f.text_field :label %></td>
+      <td>A short description.</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td><%= f.text_area :description %></td>
+      <td>Full description of the tool.</td>
+    </tr>
+    <tr>
+      <td>Possible previous script ids</td>
+      <td><%= f.text_field :previous_script_ids %></td>
+      <td>List of the possible previous scripts ids.</td>
+    </tr>
+    <tr>
+      <td>Possible next script ids</td>
+      <td><%= f.text_field :next_script_ids %></td>
+      <td>List of the possible next scripts ids.</td>
+    </tr>
+  </table>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

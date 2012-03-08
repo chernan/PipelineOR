@@ -1,0 +1,42 @@
+<p id="notice"><%= notice %></p>
+
+ 
+<p>
+  <b>Identifier:</b>
+  <%= @script.id %>
+</p>
+ 
+<p>
+  <b>Label:</b>
+  <%= @script.label %>
+</p>
+ 
+<p>
+  <b>Command:</b>
+  <pre><%= @script.cmd %></pre>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @script.description %>
+</p>
+
+<p>
+  <b>Previous steps</b>
+  <%= @script.previous_script_ids %>
+  <% @script.previous_script_ids.split(',').map{ |e| Script.all[e.to_i-1] }.each do |pscript| %>
+    <%= link_to pscript.label , pscript %>
+  <% end %>
+</p>
+
+<p>
+  <b>Next steps:</b>
+  <%= @script.next_script_ids %>
+  <% @script.next_script_ids.split(',').map{ |e| Script.all[e.to_i-1] }.each do |nscript| %>
+    <%= link_to nscript.label , nscript %>
+  <% end %>
+</p>
+
+
+<%= link_to 'Edit', edit_script_path(@script) %> |
+<%= link_to 'Back', scripts_path %>

@@ -1,0 +1,30 @@
+<h1>Listing pipeline items</h1>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Script ID</th>
+    <th>Pipeline ID</th>
+    <th>Execution order</th>
+    <th>Status ID</th>
+    <th>Time created</th>
+  </tr>
+
+<% @pipeline_items.each do |pipeline_item| %>
+  <tr>
+    <td><%= pipeline_item.id %></td>
+    <td><%= Script.all[pipeline_item.script_id-1].label %></td>
+    <td><%= Pipeline.all[pipeline_item.pipeline_id-2].name %></td>
+    <td><%= pipeline_item.exec_order %></td>
+    <td><span class="<%= Status.all[pipeline_item.status_id-1].name %>"><%= Status.all[pipeline_item.status_id-1].name.upcase %></span></td>
+    <td><%= pipeline_item.created_at %></td>
+    <td><%= link_to 'Show', pipeline_item %></td>
+    <td><%= link_to 'Edit', edit_pipeline_item_path(pipeline_item) %></td>
+    <td><%= link_to 'Destroy', pipeline_item, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Pipeline item', new_pipeline_item_path %>

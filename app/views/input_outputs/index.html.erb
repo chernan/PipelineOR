@@ -1,0 +1,24 @@
+<h1>Listing Input/Outputs</h1>
+
+<table>
+  <tr>
+    <th>Script ID</th>
+    <th>Is input?</th>
+    <th>File ID</th>
+  </tr>
+
+<% @input_outputs.each do |input_output| %>
+  <tr>
+    <td><%= input_output.script_id %></td>
+    <td><%= input_output.is_input %></td>
+    <td><%= input_output.file_id %></td>
+    <td><%= link_to 'Show', input_output %></td>
+    <td><%= link_to 'Edit', edit_input_output_path(input_output) %></td>
+    <td><%= link_to 'Destroy', input_output, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Input output', new_input_output_path %>

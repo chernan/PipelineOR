@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Testrails</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<style>
+html,body {
+  margin:0;
+  padding:0;
+  min-width:800px;
+  font-family: Arial, sans-serif;
+  font: 12pt arial, verdana, trebuchet ms, arial, sans-serif;
+  background-color: #cc9;
+}
+
+/* Header */
+#headertitle {
+  background-color: #cc9;
+}
+h1 { color: #900; font: bold 20pt arial; text-align:center;}
+h2 { color: #900; font: bold 18pt arial; margin: 0; padding-top: 10px; padding-bottom: 10px;}
+
+.running {color: orange ;} /*orange*/
+.pending {color: yellow ;} /*jaune*/
+.success {color: green ;} /*vert*/
+.failure {color: red ;} /*rouge*/
+.waiting {color: blue ;} /*bleu*/
+
+/* Global wrapper*/
+#wrapper {
+  font-size: 10pt;
+  padding: 12px;
+  padding-top: 0px;
+  background-color: #ffc;
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border: 1px solid #000;
+  /* border-top: none; */
+  min-height: 400px;
+}
+
+/* Navigation bar */
+#nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  font-size: 10pt;
+}
+
+ul#tabnav {
+  font: 12pt arial, verdana, trebuchet ms, arial, sans-serif;
+  list-style-type: none;
+  padding-bottom: 29px;
+  border-bottom: 0;
+  margin: 0;
+}
+
+ul#tabnav li {
+  float: left;
+  height: 28px;
+  background-color: #c93;
+  margin: 0px 2px 0 2px;
+  border: 1px solid #000;
+}
+
+#tabnav a {
+  float: left;
+  display: block;
+  color: #003;
+  text-decoration: none;
+  padding: 4px;
+}
+
+#tabnav a:hover {
+  background: #ffc;
+}
+
+/* Footer */
+#footer { 
+  margin-bottom: 40px; 
+  color: #111; 
+  font-size: 8pt; 
+  text-align: center;
+  padding-bottom: 10px;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+</style>
+
+<div id="headertitle">
+  <h1>Quantitation pipeline - Test</h1>
+</div>
+
+<div id="nav">
+  <ul id="tabnav">
+    <li><a href="/testrails/scripts">Scripts</a></li>
+    <li><a href="/testrails/pfiles">Files</a></li>
+    <li><a href="/testrails/statuses">Statuses</a></li>
+    <li><a href="/testrails/input_outputs">Input/Outputs</a></li>
+    <li><a href="/testrails/pipelines">Pipelines</a></li>
+    <li><a href="/testrails/pipeline_items">Pipeline items</a></li>
+  </ul>
+</div>
+
+<div id="wrapper">
+  <%= yield %>
+</div>
+
+<div id="footer">PAF Pipeline v 0.1: released xx<br/> &copy; 2012; <a href="http://www.unil.ch/paf">Protein Analysis Facilty</a>, <a href="http://www.unil.ch">University of Lausanne</a></div>
+
+</body>
+</html>

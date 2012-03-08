@@ -1,0 +1,46 @@
+<%= form_for(@pipeline_item) do |f| %>
+  <% if @pipeline_item.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@pipeline_item.errors.count, "error") %> prohibited this pipeline_item from being saved:</h2>
+
+      <ul>
+      <% @pipeline_item.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <table>
+    <tr>
+      <td>Script</td>
+      <% l2 = Script.all.map{|e| [e.label, e.id]} %>
+      <td><%= f.select :script_id, l2 %></td>
+    </tr>
+    <tr>
+      <td>Pipeline</td>
+      <% l1 = Pipeline.all.map{|e| [e.name, e.id]} %>
+      <td><%= f.select :pipeline_id, l1 %></td>
+    </tr>
+    <tr>
+      <td>Execution order</td>
+      <% l4 = (1 .. 15).to_a.map{|e| [e,e]} %>
+      <td><%= f.select :exec_order, l4 %></td>
+    </tr>
+    <tr>
+      <td>Status</td>
+      <% l3 = Status.all.map{|e| [e.name.upcase, e.id]} %>
+      <td><%= f.select :status_id, l3 %></td>
+    </tr>
+    <tr>
+      <td>Time creation</td>
+      <td><%= f.text_field :created_at %></td>
+    </tr>
+  </table>
+
+
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
